@@ -1,7 +1,9 @@
 //Mike Scott
 //examples of array manipulations
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
-@test
+
 public class ArrayExamples
 {	public static void main(String[] args)
 	{	int[] list = {1, 2, 3, 4, 1, 2, 3};
