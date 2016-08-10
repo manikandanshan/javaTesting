@@ -1,6 +1,7 @@
 //Mike Scott
 //examples of array manipulations
 
+@test
 public class ArrayExamples
 {	public static void main(String[] args)
 	{	int[] list = {1, 2, 3, 4, 1, 2, 3};
@@ -24,6 +25,7 @@ public class ArrayExamples
 
 	// pre: list != null, list.length > 0
 	// post: return index of minimum element of array
+	@Test
 	public static int findMin(int[] list)
 	{	assert list != null && list.length > 0 : "failed precondition";
 
