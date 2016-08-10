@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 
 public class SampleTest {
 	
-   String message = "Hello World";
+   String message = "Hello World1";
    MessageUtil messageUtil = new MessageUtil(message);
 
    @Test
