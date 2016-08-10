@@ -1,5 +1,3 @@
-//Mike Scott
-//examples of array manipulations
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -27,7 +25,7 @@ public class ArrayExamples
 
 	// pre: list != null, list.length > 0
 	// post: return index of minimum element of array
-	@Test
+	@test
 	public static int findMin(int[] list)
 	{	assert list != null && list.length > 0 : "failed precondition";
 
@@ -42,11 +40,7 @@ public class ArrayExamples
 	}
 
 
-	/*
-	 *pre: list != null, newSize >= 0
-	 *post: nothing. the method does not succeed it resizing the
-	 * argument
-	 */
+
 	public static void badResize(int[] list, int newSize)
 	{	assert list != null && newSize >= 0 : "failed precondition";
 
